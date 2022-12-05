@@ -6,7 +6,7 @@ Una API es la forma en como se pueden integrar dos o mas aplicaciones y su uso e
 - **PUT**: para actualizar informacion, es similar a un **UPDATE** de base de datos
 - **DELETE**: para eliminar informacion y es similar al mismo comando **DELETE** de la base de datos.
 
-REST (Representational State Transfer) se base principalmente en el protocolo HTTP, por lo cual se hace necesario el uso de HTTP Status Codes para complementar la infromacion retornada por las peticiones hechas a la PAI.
+REST (Representational State Transfer) se base principalmente en el protocolo HTTP, por lo cual se hace necesario el uso de HTTP Status Codes para complementar la infromacion retornada por las peticiones hechas a la API.
 
 Estos son algunos de los Status Codes mas utilizados
 
