@@ -130,6 +130,6 @@ Genere su rama utilizando la siguiente nomenclatura:
 - 3 primeras letras de primer apellido
 - 3 primeras letras de su segundo apellido.
 
-**Ejemplo:**
-Si el nombre es Julio Cesar Robles Uribe , el Nombre de du rama seria **julroburi**
+**Ejemplo:**</br>
+Si el nombre es Julio Cesar Robles Uribe , el Nombre de su rama seria **julroburi**
 
