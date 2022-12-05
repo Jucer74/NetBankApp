@@ -39,6 +39,17 @@ Si el Numero de la tarjeta es correcto y se identifica la red emisora
 }
 ```
 
+**ValidationFails**
+Ok - Status Code: 200
+Si el Numero de la tarjeta NO es correcto (por digito o por longitud) pero SI se identifica la red emisora
+
+```json
+{
+	"issuingNetwork" : "Visa",
+	"Valid" : false
+}
+```
+
 **BadRequest**
 BadRequest - Status Code: 400
 Si lo que se recibe como numero de tarjeta no es un conjunto de numeros
@@ -66,9 +77,8 @@ Para Obtener y validar la Franquicia o Red Emisora puede utilizar la siguiente t
 | Franquicia o Red Emisora    | Inicia con ( o en el rango )                             | Longitud (Num. de Digitos)  |
 |-----------------------------|----------------------------------------------------------|-----------------------------|
 | American Express            | 34, 37                                                   | 15                          |
-| Diners Club - Carte Blanche | 300, 301, 302, 303, 304, 305                             | 14                          |
+| Diners Club                 | 300, 301, 302, 303, 304, 305                             | 14                          |
 | Diners Club - International | 36                                                       | 14                          |
-| Diners Club - USA & Canada  | 54                                                       | 16                          |
 | Discover                    | 6011, 622126-622925, 644, 645, 646, 647, 648, 649, 65    | 16-19                       |
 | InstaPayment                | 637, 638, 639                                            | 16                          |
 | JCB                         | 3528-3589                                                | 16-19                       |
