@@ -126,7 +126,7 @@ Los Nombres de las variables y Funciones:
 
 # Proceso
 Genere su rama utilizando la siguiente nomenclatura:
-- 3 primeras ltras de su primer nombre
+- 3 primeras letras de su primer nombre
 - 3 primeras letras de primer apellido
 - 3 primeras letras de su segundo apellido.
 
