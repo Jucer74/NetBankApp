@@ -1,5 +1,5 @@
 # API Rest
-Una API es la forma en como se pueden integrar dos o mas aplicaciones y uso en Web se conoce como WebApi, que se base en estilo Arquitectonico denominado REST, que a su vez utiliza los siguientes verbos como base para efectuar las operaciones.
+Una API es la forma en como se pueden integrar dos o mas aplicaciones y su uso en Web se conoce como WebApi, que se base en estilo Arquitectonico denominado REST, que a su vez utiliza los siguientes verbos como base para efectuar las operaciones.
 
 - **GET**: para Obtener datos, similar al **SELECT** de la base de datos
 - **POST**: para enviar informacion o ejecutar un comando, es similar a un **INSERT** de la base de datos
